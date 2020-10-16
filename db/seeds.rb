@@ -37,3 +37,11 @@ Flat.create!(
   price_per_night: 75,
   number_of_guests: 3
 )
+
+Flat.create!(
+  name: 'teste',
+  address: 'rua sobe e desce',
+  description: 'nao venha morar aqui',
+  price_per_night: 999,
+  number_of_guests: 0
+)
